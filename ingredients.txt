@@ -1,0 +1,23 @@
+green beans,15
+beets,15
+broccoli florets,5
+cabbage,5
+potatoes,15
+carrots,15
+celery,15
+frozen corn,0
+eggplant,15
+kale,15
+mushrooms,5
+parsnips,15
+fresh peas,15
+frozen peas,0
+bell peppers,5
+sweet potatoes,15
+spinach,0
+tomatoes,0
+zucchini,5
+diced chicken,5
+diced fish,5
+cooked chickpeas,0
+cooked black beans,0

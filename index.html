@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>StewTemplate</title>
+ 
+  <!-- Load style sheets -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/jquery-ui.min.css">
+
+  <!-- Load any supplemental Javascript libraries here -->
+  <script src="lib/jquery.min.js"></script> 
+  <script src="recipe.js"></script>  
+  <script src="render.js"></script> 
+
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <h1>How to make stew out of anything</h1>
+
+      <div class="ui-widget">
+        <label for="ingredients">What foods do you have on hand?</label>
+        <input id="ingredients">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-6">
+        <strong>Ingredients</strong>
+        <ul id="ingredientList">
+          <li>2 tablespoons of oil</li>
+          <li>1 diced onion</li>
+          <li>1 tablespoon of spices</li>
+        </ul>
+      </div>
+      <div class="col-xs-6">
+        <strong>Instructions</strong>
+        <ol id="instructionList">
+          <li>In a pot, heat 2 tablespoons of oil over medium heat.</li>
+          <li>Add 1 diced onion and 1 tablespoon of spices. Cook for 5 minutes until golden brown.</li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
